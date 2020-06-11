@@ -9,3 +9,49 @@
   display: table;
   clear: both;
 }
+
+.bg-pink {
+  background-color: pink;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: darkgray;
+  height: 500px;
+}
+
+.header-top {
+  height: 70px;
+  background-color: orange;
+}
+
+#logo img {
+  width: 105px;
+  height: 30px;
+  float: left;
+}
+
+.navigazione li {
+  float: left;
+  list-style: none;
+
+}
+
+.banner {
+  height: 480px;
+  background-color: green;
+  background-image: url("../img/jumbotron.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.jumbotron {
+  width: 50%;
+  height: 100%;
+  border: 1px solid black;
+
+}
