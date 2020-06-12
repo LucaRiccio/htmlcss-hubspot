@@ -33,11 +33,15 @@ button {
 }
 
 .bg-azure {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .bg-white {
-  background-color: violet;
+  /* background-color: violet; */
+}
+
+.bg-gradient {
+  background-color: #00a9b8;
 }
 
 .container {
@@ -53,7 +57,7 @@ width: 80%;
 max-width: 1200px;
 margin: 0 auto;
 background-color: paleturquoise;
-height: 100px;
+height: 80px;
 border-top: 3px solid #33475b;
 border-bottom: 3px solid #33475b;
 }
@@ -92,7 +96,7 @@ nav {
 
 .banner {
   height: 400px;
-  background-color: green;
+  /* background-color: green; */
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-position:center;
@@ -116,4 +120,65 @@ nav {
 
 .rubik {
   text-align: center;
+}
+
+.rubik img {
+  height: 190px;
+  margin-top: 40px;
+}
+
+.book {
+  /* background-color: brown; */
+  border: 1px solid black;
+  height: 300px;
+  width: 100%;
+}
+
+.iconabook {
+  border: 1px solid black;
+  height: 300px;
+  width: 40%;
+  text-align: center;
+  float: left;
+}
+
+.iconabook img {
+  height: 100px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+}
+
+.testobook {
+  border: 1px solid black;
+  height: 300px;
+  width: 60%;
+  /* background-color: beige; */
+  float: left;
+}
+
+.cards {
+  border: 1px solid black;
+  height: 700px;
+  width: 100%;
+}
+
+.lista {
+  text-align: left;
+}
+
+.card {
+  width: 33.3333%;
+  border: 1px solid white;
+  /* background-color: lime; */
+  height: 700px;
+  float: left;
+  padding: 20px;
+  text-align: center;
+}
+
+.card img{
+  height: 100px;
 }
