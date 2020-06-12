@@ -53,13 +53,13 @@ button {
 }
 
 .blocco {
-width: 80%;
-max-width: 1200px;
-margin: 0 auto;
-background-color: paleturquoise;
-height: 80px;
-border-top: 3px solid #33475b;
-border-bottom: 3px solid #33475b;
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: paleturquoise;
+  height: 80px;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
 }
 
 
@@ -181,4 +181,22 @@ nav {
 
 .card img{
   height: 100px;
+}
+
+.row {
+  width: 100%;
+  background-color: white;
+  margin: auto;
+  border: 1px solid black;
+  /* text-align: center; */
+
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  /* position: relative; */
+  /* display: inline-block; */
+  border: 1px solid black;
+  float: left;
 }
