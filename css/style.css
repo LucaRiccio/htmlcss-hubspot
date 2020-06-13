@@ -41,31 +41,40 @@ button {
 }
 
 .bg-gradient {
+  /* background-color: #00a9b8; */
+  color: white;
+}
+
+.gradient {
   background-color: #00a9b8;
+}
+
+.bg-girl {
+  /* background-color: purple; */
+}
+
+.bg-footer {
+  background-color: coral;
 }
 
 .container {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  /* background-color: darkgray; */
-  /* height: 500px; */
 }
 
 .blocco {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
-  background-color: paleturquoise;
+  background-color: #afebe4;
   height: 80px;
   border-top: 3px solid #33475b;
   border-bottom: 3px solid #33475b;
 }
 
-
 .header-top {
   height: 70px;
-  /* background-color: orange; */
 }
 
 #logo {
@@ -86,7 +95,6 @@ nav {
   float: left;
   list-style: none;
   margin-left: 20px;
-
 }
 
 .navigazione {
@@ -96,19 +104,15 @@ nav {
 
 .banner {
   height: 400px;
-  /* background-color: green; */
   background-image: url("../img/jumbotron.png");
   background-size: cover;
   background-position:center;
   background-repeat: no-repeat;
   position: relative;
-
 }
 
 .jumbotron {
   width: 50%;
-  /* height: 100%; */
-  /* border: 1px solid black; */
   position: absolute;
   top: 50%;
   transform: translateY(-60%);
@@ -120,6 +124,8 @@ nav {
 
 .rubik {
   text-align: center;
+  width: 70%;
+  margin: 0 auto;
 }
 
 .rubik img {
@@ -128,16 +134,15 @@ nav {
 }
 
 .book {
-  /* background-color: brown; */
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 300px;
   width: 100%;
 }
 
 .iconabook {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 300px;
-  width: 40%;
+  width: 30%;
   text-align: center;
   float: left;
 }
@@ -148,20 +153,23 @@ nav {
   margin: auto;
   margin-top: 50px;
   margin-bottom: 40px;
-
 }
 
 .testobook {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 300px;
-  width: 60%;
+  width: 70%;
   /* background-color: beige; */
   float: left;
 }
 
+.testobook h3,p {
+  margin: 15px 0px;
+}
+
 .cards {
-  border: 1px solid black;
-  height: 700px;
+  /* border: 1px solid black; */
+  height: 600px;
   width: 100%;
 }
 
@@ -171,9 +179,8 @@ nav {
 
 .card {
   width: 33.3333%;
-  border: 1px solid white;
-  /* background-color: lime; */
-  height: 700px;
+  /* border: 1px solid white; */
+  height: 600px;
   float: left;
   padding: 20px;
   text-align: center;
@@ -183,20 +190,88 @@ nav {
   height: 100px;
 }
 
+.card hr {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.testogrid {
+  text-align: center;
+}
+
 .row {
   width: 100%;
   background-color: white;
   margin: auto;
   border: 1px solid black;
-  /* text-align: center; */
-
+  text-align: center;
 }
 
 .item {
-  width: 250px;
-  height: 250px;
-  /* position: relative; */
-  /* display: inline-block; */
+  width: 25%;
+  height: 200px;
   border: 1px solid black;
   float: left;
+}
+
+.girl {
+  width: 100%;
+  height: 500px;
+  background-color: grey;
+}
+
+.jumbogirl {
+  height: 40%;
+  background-color: lightgrey;
+  /* border: 1px solid black; */
+}
+
+.left {
+  border: 1px solid black;
+  width: 20%;
+  float: left;
+  height: 200px;
+  text-align: left;
+}
+
+.partners {
+border: 2px solid black;
+  float: left;
+  width: 80%;
+}
+
+.sponsor {
+  float: left;
+  width: 100px;
+  height: 50px;
+}
+
+.sponsor img {
+  width: 110px;
+  height: 15px;
+}
+
+.start {
+  width: 40%;
+  border: 1px solid black;
+  float: left;
+}
+
+.foto {
+  border: 1px solid black;
+  width: 60%;
+  float: left;
+}
+
+.foto img {
+  height: 250px;
+}
+
+.linea {
+width: 400px;
+
+}
+
+.tabella {
+  height: 200px;
 }
