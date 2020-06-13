@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #33475b;
 }
 
@@ -174,7 +174,13 @@ nav {
 }
 
 .lista {
-  text-align: left;
+  float: left;
+  margin-right: 80px;
+
+}
+
+li {
+  list-style: none;
 }
 
 .card {
@@ -288,4 +294,10 @@ padding-top: 40px;
 .fine {
   color: white;
   background-color: #32495b;
+}
+
+#footerbutton {
+ background-color: #dadee0;
+ color: #32495b;
+ font-style:
 }
