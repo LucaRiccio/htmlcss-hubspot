@@ -9,6 +9,10 @@ body {
   color: #33475b;
 }
 
+i {
+  color: #ff7a59;
+}
+
 a {
   text-decoration: none;
   color: #33475b;
@@ -25,7 +29,7 @@ button {
   border-radius: 5px;
   border: 1px solid #ff7a59;
   color: white;
-  padding: 10px;
+  padding: 15px 30px;
 }
 
 .bg-pink {
@@ -33,28 +37,33 @@ button {
 }
 
 .bg-azure {
-  /* background-color: blue; */
+  /* background-color: #afebe4; */
 }
 
 .bg-white {
-  /* background-color: violet; */
+  /* background-color: #f4f9fd; */
+}
+
+.white {
+  background-color: #f4f9fd
 }
 
 .bg-gradient {
-  /* background-color: #00a9b8; */
+  /* background-image: linear-gradient(90deg, #00a7ba, #00b9a9); */
   color: white;
 }
 
 .gradient {
-  background-color: #00a9b8;
+  background-image: linear-gradient(90deg, #00a7ba, #00b9a9);
 }
 
 .bg-girl {
-  /* background-color: purple; */
+  /* background-color: #ffffff; */
 }
 
 .bg-footer {
   /* background-color: #32495b; */
+  color: white;
 }
 
 .container {
@@ -134,13 +143,15 @@ nav {
 }
 
 .book {
-  /* border: 1px solid black; */
+  border-radius: 3px;
   height: 300px;
   width: 100%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 2px 2px #eaeff5;
 }
 
 .iconabook {
-  /* border: 1px solid black; */
   height: 300px;
   width: 30%;
   text-align: center;
@@ -156,11 +167,10 @@ nav {
 }
 
 .testobook {
-  /* border: 1px solid black; */
   height: 300px;
   width: 70%;
-  /* background-color: beige; */
   float: left;
+  padding-top: 40px;
 }
 
 .testobook h3,p {
@@ -168,15 +178,16 @@ nav {
 }
 
 .cards {
-  /* border: 1px solid black; */
   height: 600px;
   width: 100%;
 }
 
-.lista {
-  float: left;
-  margin-right: 80px;
+.listab {
+  text-align: left;
+}
 
+.lista li {
+  margin: 20px 20px 20px 0px;
 }
 
 li {
@@ -184,12 +195,12 @@ li {
 }
 
 .card {
-  width: 33.3333%;
-  /* border: 1px solid white; */
+  width: 33.333%;
   height: 600px;
   float: left;
   padding: 20px;
   text-align: center;
+  padding: 30px;
 }
 
 .card img{
@@ -205,36 +216,28 @@ li {
   text-align: center;
 }
 
+.grid {
+  margin-top: 40px;
+}
+
 .row {
   width: 100%;
   background-color: white;
   margin: auto;
-  /* border: 1px solid black; */
   text-align: center;
 }
 
 .item {
   width: 25%;
   height: 200px;
-  border: 1px solid black;
+  border:1px solid white;
   float: left;
 }
 
-.girl {
-  width: 100%;
-  height: 500px;
-  background-color: grey;
-}
-
-.jumbogirl {
+/* .jumbogirl {
   height: 40%;
   background-color: lightgrey;
-  /* border: 1px solid black; */
-}
-
-/* .up {
-  background-color: gray;
-  height: 600px;
+  border: 1px solid black;
 } */
 
 .left {
@@ -252,9 +255,9 @@ li {
  text-align: center;
 }
 
-.tabella {
-  /* height: 200px; */
-}
+/* .tabella {
+  height: 200px;
+} */
 
 .linea {
 width: 600px;
@@ -299,5 +302,35 @@ padding-top: 40px;
 #footerbutton {
  background-color: #dadee0;
  color: #32495b;
- font-style:
+ border: none;
+ padding: 10px 15px;
+
+}
+
+.lista {
+  float: left;
+  margin-right: 80px;
+}
+
+#social i {
+  color: #cbd6e2
+}
+
+.language {
+  background-color: #32495b;
+}
+
+.language hr {
+  color: #6b7d8d;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.languages {
+  text-align: center;
+  color: white;
+}
+
+.languages span {
+margin-right: 20px;
 }
