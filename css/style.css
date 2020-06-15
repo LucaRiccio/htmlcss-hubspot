@@ -22,11 +22,70 @@ a:hover {
   color: #7fd1de;
 }
 
-.fissa {
-  height: 70px;
+.bg-last {
+  background-color: white;
+}
+
+.bg-search {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
   background-color: #f4f9fd;
   border-top: 1px solid lightgrey;
   border-bottom: 1px solid #32495b;
+}
+
+.bg-pink {
+  background-color: #fff2ee;
+  padding-top: 70px;
+}
+
+.bg-azure {
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
+
+.bg-white {
+  background-color: #f4f9fd;
+}
+
+.white {
+  background-color: #f4f9fd
+}
+
+.bg-gradient {
+  background-image: linear-gradient(90deg, #00a7ba, #00b9a9);
+  color: white;
+}
+
+.gradient {
+  height: 600px;
+  padding-top: 20px;
+}
+
+.bg-girl {
+  background-color: #ffffff;
+  height: 600px;
+  padding-top: 45px;
+}
+
+.bg-footer {
+  background-color: #32495b;
+  color: white;
+  height: 650px;
+  padding-top: 70px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.fissa {
+  height: 70px;
+  background-color: #f4f9fd;
   line-height: 65px;
 }
 
@@ -95,65 +154,17 @@ button {
   padding: 15px 30px;
 }
 
-.bg-search {
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-}
-
-.bg-pink {
-  /* background-color: #fff2ee; */
-  padding-top: 70px;
-}
-
-.bg-azure {
-  /* background-color: #afebe4; */
-}
-
-.bg-white {
-  /* background-color: #f4f9fd; */
-}
-
-.white {
-  background-color: #f4f9fd
-}
-
-.bg-gradient {
-  /* background-image: linear-gradient(90deg, #00a7ba, #00b9a9); */
-  color: white;
-}
-
-.gradient {
-  background-image: linear-gradient(90deg, #00a7ba, #00b9a9);
-}
-
-.bg-girl {
-  /* background-color: #ffffff; */
-}
-
-.bg-footer {
-  /* background-color: #32495b; */
-  color: white;
-}
-
-.container {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .blocco {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
   background-color: #afebe4;
   height: 80px;
-  border-top: 3px solid #33475b;
-  border-bottom: 3px solid #33475b;
 }
 
 .header-top {
   height: 70px;
+  background-color: white;
 }
 
 #logo {
@@ -302,6 +313,7 @@ li {
 
 .testogrid {
   text-align: center;
+  padding-top: 26px;
 }
 
 .testogrid h2 {
@@ -322,13 +334,34 @@ li {
 
 .item {
   width: 25%;
-  /* height: 200px; */
   border:1px solid white;
   float: left;
   border-top: none;
   border-left: none;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+#profiles {
+  padding-bottom: 24px;
+  border-right: 0px;
+  border-bottom: 0px;
+}
+
+#registered {
+  border-right: 0px;
+}
+
+#social {
+  border-bottom: 0px;
+}
+
+#lang {
+  border-bottom: 0px;
+}
+
+#integration {
+  border-bottom: 0px;
 }
 
 .left {
@@ -380,7 +413,7 @@ padding-top: 40px;
 }
 
 .foto img {
-  height: 250px;
+  height: 300px;
   position: relative;
   left: 25px;
 }
