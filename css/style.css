@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.fissa {
-  height: 70px;
-  background-color: #f4f9fd;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
@@ -27,6 +22,56 @@ a:hover {
   color: #7fd1de;
 }
 
+.fissa {
+  height: 70px;
+  background-color: #f4f9fd;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid #32495b;
+  line-height: 65px;
+}
+
+.sinistra {
+  width: 70%;
+  float: left;
+}
+
+.destra {
+  width: 30%;
+  float: left;
+}
+
+.destra button {
+  margin: 0px 15px;
+  background-color: #fe775a
+  color: #32495b;
+  border: none;
+  padding: 10px 15px;
+}
+
+.destra i {
+  color: #00a4bd;
+}
+
+#extra {
+  color: #fe775a;
+  background-color: white;
+  border: 1px solid #fe775a
+}
+
+.sinistra a {
+  margin-right: 20px;
+  color: #33475b
+}
+
+.sinistra i {
+  color: #33475b;
+}
+
+#contact {
+  border-left: 1px solid #33475b;
+  padding-left: 20px;
+}
+
 .navigazione a {
   text-decoration: none;
   color: #33475b;
@@ -35,7 +80,6 @@ a:hover {
 .navigazione a:hover {
   color: #33475b
 }
-
 
 .clearfix::after {
   content:'';
@@ -51,8 +95,15 @@ button {
   padding: 15px 30px;
 }
 
+.bg-search {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
 .bg-pink {
   /* background-color: #fff2ee; */
+  padding-top: 70px;
 }
 
 .bg-azure {
@@ -344,7 +395,6 @@ padding-top: 40px;
  color: #32495b;
  border: none;
  padding: 10px 15px;
-
 }
 
 .lista {
