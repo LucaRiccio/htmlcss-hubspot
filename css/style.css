@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.fissa {
+  height: 70px;
+  background-color: #f4f9fd;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   color: #33475b;
@@ -47,7 +52,7 @@ button {
 }
 
 .bg-pink {
-  /* background-color: #fff2ee;  */
+  /* background-color: #fff2ee; */
 }
 
 .bg-azure {
@@ -202,11 +207,6 @@ nav {
   margin: 15px 0px;
 }
 
-.cards {
-  height: 600px;
-  width: 100%;
-}
-
 .listab {
   text-align: left;
 }
@@ -219,13 +219,25 @@ li {
   list-style: none;
 }
 
+.cards {
+  height: 650px;
+  width: 100%;
+}
+
 .card {
   width: 33.333%;
   height: 600px;
   float: left;
-  padding: 20px;
   text-align: center;
-  padding: 50px;
+  padding: 60px;
+}
+
+.inside {
+  box-shadow: 0px 0px 2px 2px #eaeff5;
+  background-color: white;
+  padding: 10px;
+  height: 545px;
+  border-radius: 3px;
 }
 
 .card img{
@@ -259,11 +271,13 @@ li {
 
 .item {
   width: 25%;
-  height: 200px;
+  /* height: 200px; */
   border:1px solid white;
   float: left;
   border-top: none;
   border-left: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .left {
