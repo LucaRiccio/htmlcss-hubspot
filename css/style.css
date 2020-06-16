@@ -269,8 +269,17 @@ nav {
   margin: 15px 0px;
 }
 
+.testobook span {
+  margin: 0px 17px;
+}
+
 .listab {
   text-align: left;
+}
+
+.listab span {
+  margin-left: 12px;
+
 }
 
 .lista li {
@@ -354,6 +363,10 @@ li {
 
 #social {
   border-bottom: 0px;
+}
+
+#social span {
+  margin-right: 25px;
 }
 
 #lang {
